@@ -92,6 +92,7 @@ You may also consider including some notable **image-to-image (I2I） editing me
 
 | Paper | Venue | Links |
 |-------|-------|-------|
+| AnyEdit: Mastering Unified High-Quality Image Editing for Any Idea | CVPR 2025 (Oral) | [Paper](https://arxiv.org/abs/2411.15738) \| [Code](https://github.com/DCDmllm/AnyEdit) |
 | Diffusion Model-Based Image Editing: A Survey | arXiv 2024 | [Paper](https://arxiv.org/abs/2402.17525) \| [Code](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) |
 | Direct Inversion: Boosting Diffusion-based Editing with 3 Lines of Code | ICLR 2024 | [Paper](https://arxiv.org/abs/2310.01506) \| [Code](https://github.com/cure-lab/PnPInversion) |
 | Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | CVPR 2023 (Poster) | [Paper](https://arxiv.org/abs/2211.12572) \| [Code](https://github.com/MichalGeyer/plug-and-play) |
