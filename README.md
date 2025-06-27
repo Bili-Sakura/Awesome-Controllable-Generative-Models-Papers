@@ -1,6 +1,16 @@
-# Awesome Controllable Generative Models
+# 🔥 Awesome Controllable Generative Models
 
-A curated list of recent papers (2023–2025) on **controllable generative models**, especially in **Unet-based diffusion models** and **transformer-based diffuson models**. Focus areas include control mechanisms, attention interpretation, frequency domain guidance, and domain-class alignment.
+A curated and continuously updated collection of **recent (2023–2025)** research papers on **controllable generative models**, with a special focus on both **UNet-based diffusion models** and **Transformer-based diffusion architectures**.
+
+This list emphasizes core advances in:
+
+- 🧭 **Control mechanisms** – including condition injection, adapters, multi-modal control
+- 👁️ **Attention interpretation** – revealing what diffusion models focus on
+- 🎛️ **Frequency-based control** – using spectral domain knowledge to guide generation
+- 🔁 **Alignment & knowledge transfer** – enabling more coherent, faithful, and data-efficient synthesis
+- 🧑‍🎨 **Image-to-image (I2I) editing** – flexible, structure-preserving transformation across domains
+
+> 💡 Our goal is not only to track the state-of-the-art in controllable generation, but also to offer a **well-organized knowledge map** for newcomers and researchers building on top of diffusion models.
 
 ---
 
@@ -8,10 +18,32 @@ A curated list of recent papers (2023–2025) on **controllable generative model
 
 | Paper | Venue | Links |
 |-------|-------|-------|
-| OminiControl: Minimal and Universal Control for Diffusion Transformer | - | [Paper](#) \| [Code](#) |
-| CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model | ICLR 2025 (Oral) | [Paper](#) \| [Code](#) |
-| FlexControl: Computation-Aware Conditional Control with Differentiable Router | ICML 2025 (Poster) | [Paper](#) \| [Code](#) |
-| Ctrl-X: Controlling Structure and Appearance Without Guidance | NeurIPS 2024 | [Paper](#) \| [Code](#) |
+| Adding Conditional Control to Text-to-Image Diffusion Models | ICCV 2023 | [paper](https://arxiv.org/abs/2302.05543) \| [Code](https://github.com/lllyasviel/ControlNet) |
+| Cocktail : Mixing Multi-Modality Controls for Text-Conditional Image Generation | NeurIPS 2023 | [Paper](https://arxiv.org/abs/2306.00964) \| [Code](https://github.com/mhh0318/Cocktail) |
+| OminiControl: Minimal and Universal Control for Diffusion Transformer | arXiv 2024 | [Paper](https://arxiv.org/abs/2411.15098) \| [Code](https://github.com/Yuanshi9815/OminiControl) |
+| SmartControl: Enhancing ControlNet for Handling Rough Visual Conditions | ECCV 2024 (Poster) | [Paper](https://arxiv.org/abs/2404.06451) \| [Code](https://github.com/liuxiaoyu1104/SmartControl) |
+| CTRL-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model | ICLR 2025 (Oral) | [Paper](https://openreview.net/forum?id=ny8T8OuNHe) \| [Code](https://github.com/HL-hanlin/Ctrl-Adapter) |
+| FlexControl: Computation-Aware Conditional Control with Differentiable Router | ICML 2025 (Poster) | [Paper](https://arxiv.org/abs/2502.10451) \| [Code](https://github.com/Daryu‑Fan/FlexControl) |
+| Ctrl‑X: Controlling Structure and Appearance Without Guidance | NeurIPS 2024 | [Paper](https://arxiv.org/abs/2406.07540) \| [Code](https://github.com/genforce/ctrl-x) |
+| Composer: Creative and Controllable Image Synthesis with Composable Conditions | ICML 2023 | [Paper](https://arxiv.org/abs/2302.09778) \| [Code](https://github.com/ali-vilab/composer?tab=readme-ov-file) |
+| ConceptCtrl: Concept Control of Zero-shot Personalized Image Generation | arXiv 2025 | [Paper](https://arxiv.org/abs/2503.06568) \| [Code](https://github.com/QY-H00/Conceptrol) |
+| UniControl: A Unified Diffusion Model for Controllable Visual Generation In the Wild | CVPR 2023 | [Paper](https://arxiv.org/abs/2305.11147) \| [Code](https://github.com/salesforce/UniControl) |
+| Controllable Generation with Text-to-Image Diffusion Models: A Survey | T-PAMI 2024 | [Paper](https://arxiv.org/abs/2403.04279) \| [Code](#) |
+| Uni-ControlNet: All-in-One Control to Text-to-Image Diffusion Models | NeurIPS 2023 | [Paper](https://arxiv.org/abs/2305.16322) \| [Code](https://github.com/ShihaoZhaoZSH/Uni-ControlNet) |
+| Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling | ICLR 2025 | [Paper](https://arxiv.org/abs/2410.11236) \| [Code](https://github.com/grenoble-zhang/Ctrl-U) |
+| Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models | arXiv 2024 | [Paper](https://arxiv.org/abs/2411.07126) \| [Code](https://github.com/NVIDIA/Edify-Image) |
+| Generative Modeling by Estimating Gradients of the Data Distribution | NeurIPS 2019 | [Paper](https://arxiv.org/abs/1907.05600) \| [Code](#) |
+| IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models | arXiv 2023 | [Paper](https://arxiv.org/abs/2308.06721) \| [Code](https://github.com/tencent-ailab/IP-Adapter) |
+| T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion | NeurIPS 2023 | [Paper](https://arxiv.org/abs/2302.08453) \| [Code](https://github.com/TencentARC/T2I-Adapter) |
+| Is Noise Conditioning Necessary for Denoising Generative Models? | arXiv 2025 | [Paper](https://arxiv.org/abs/2502.13129) \| [Code](#) |
+| Layout-to-Image Generation with Localized Descriptions using ControlNet with Cross-Attention Guidance | WACV 2024 | [Paper](https://arxiv.org/abs/2402.13404) \| [Code](#) |
+| More Control for Free! Image Synthesis with Semantic Diffusion Guidance | WACV 2023 | [Paper](https://arxiv.org/abs/2112.05744) \| [Code](https://xh-liu.github.io/sdg/) |
+| MultiDiffusion: Fusing Diffusion Paths for Controlled Image Generation | CVPR 2023 | [Paper](https://arxiv.org/abs/2302.08113) \| [Code](#) |
+| Rectified Diffusion Guidance for Conditional Generation | CVPR 2025 | [Paper](https://arxiv.org/abs/2410.18737) \| [Code](#) |
+| Sketch-Guided Text-to-Image Diffusion Models | arXiv 2022 | [Paper](https://arxiv.org/abs/2211.13752) \| [Code](https://github.com/ogkalu2/Sketch-Guided-Text-To-Image-Diffusion) |
+
+> 🧠 These papers push the boundary of **how we guide generation**, whether through minimal prompts, learned adapters, or uncertainty-aware mechanisms.
+
 
 ---
 
@@ -19,9 +51,12 @@ A curated list of recent papers (2023–2025) on **controllable generative model
 
 | Paper | Venue | Links |
 |-------|-------|-------|
-| ConceptAttention: Diffusion Transformers Learn Interpretable Features | ICML 2025 (Oral) | [Paper](#) \| [Code](#) |
-| ToMA: Token Merge with Attention | ICML 2025 (Poster) | [Paper](#) \| [Code](#) |
+| ConceptAttention: Diffusion Transformers Learn Highly Interpretable Features | ICML 2025 (Oral) | [Paper](https://arxiv.org/abs/2502.04320) \| [Code](https://github.com/helblazer811/ConceptAttention) |
+| ToMA: Token Merge with Attention for Diffusion Models | ICML 2025 (Poster) | [Paper](https://openreview.net/forum?id=xhtqgW5b93) \| [Code](#) |
 | What the DAAM: Interpreting Stable Diffusion Using Cross Attention | ACL 2024 (Oral) | [Paper](https://arxiv.org/abs/2302.12243) \| [Code](https://github.com/zhudilin/DAAM) |
+| Attention Distillation: A Unified Approach to Visual Characteristics Transfer | CVPR 2025 | [Paper](https://arxiv.org/abs/2502.20235) \| [Code](https://github.com/xugao97/AttentionDistillation) |
+
+> 🔬 Interpretability is **not just analysis** — it's a step toward **transparent and editable generative pipelines**.
 
 ---
 
@@ -29,7 +64,16 @@ A curated list of recent papers (2023–2025) on **controllable generative model
 
 | Paper | Venue | Links |
 |-------|-------|-------|
-| Diffusion-based Adversarial Purification from the Frequency Domain | ICML 2025 (Poster) | [Paper](#) \| [Code](#) |
+| DiffFNO: Diffusion Fourier Neural Operator for Arbitrary-Scale Super-Resolution | CVPR 2025 (Oral) | [Paper](https://arxiv.org/abs/2411.09911) \| [Code](#) |
+| Frequency Autoregressive Image Generation with Continuous Tokens | arXiv 2025 | [Paper](https://arxiv.org/abs/2503.05305) \| [Code](https://github.com/yuhuUSTC/FAR) |
+| Frequency-Controlled Diffusion Model for Versatile Text-Guided Image-to-Image Translation | AAAI 2024 | [Paper](https://arxiv.org/abs/2407.03006) \| [Code](https://github.com/XiangGao1102/FCDiffusion) |
+| FreeU: Free Lunch in Diffusion U-Net | CVPR 2024 | [Paper](https://arxiv.org/abs/2309.11497) \| [Code](https://github.com/ChenyangSi/FreeU) |
+| FreeDiff: Progressive Frequency Truncation for Image Editing with Diffusion Models | ECCV 2024 (Poster) | [Paper](https://arxiv.org/abs/2404.11895) \| [Code](https://github.com/thermal-dynamics/freediff) |
+| PTDiffusion: Free Lunch for Generating Optical Illusion Hidden Pictures with Phase-Transferred Diffusion | CVPR 2025 (Poster) | [Paper](https://arxiv.org/abs/2503.06186) \| [Code](https://github.com/XiangGao1102/PTDiffusion) |
+| ResDiff: Combining CNN and Diffusion Model for Image Super-Resolution | AAAI 2023 | [Paper](https://arxiv.org/abs/2303.08714) \| [Code](https://github.com/LYL1015/ResDiff) |
+| Diffusion-based Adversarial Purification from the Perspective of the Frequency Domain | ICML 2025 (Spotlight Poster) | [Paper](https://arxiv.org/abs/2505.01267) \| [Code](#) |
+
+> 📡 Spectral and signal-level control provides **low-level but powerful levers** for generative consistency, resolution, and robustness.
 
 ---
 
@@ -37,11 +81,30 @@ A curated list of recent papers (2023–2025) on **controllable generative model
 
 | Paper | Venue | Links |
 |-------|-------|-------|
-| When Model Knowledge meets Diffusion: Data-free Synthesis with Domain-Class Alignment | ICML 2025 | [Paper](#) \| [Code](#) |
+| When Model Knowledge meets Diffusion: Data-free Synthesis with Domain-Class Alignment | ICML 2025 | [Paper](https://arxiv.org/abs/2506.15381) \| [Code](#) |
+
+> 🧬 These works align **discrete symbolic knowledge** with **continuous generative priors**, aiming for controllability in low-data or zero-shot regimes.
+
+---
+
+You may also consider including some notable **image-to-image (I2I） editing methods** in your collection.
+## Image Editing
+
+| Paper | Venue | Links |
+|-------|-------|-------|
+| Diffusion Model-Based Image Editing: A Survey | arXiv 2024 | [Paper](https://arxiv.org/abs/2402.17525) \| [Code](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) |
+| Direct Inversion: Boosting Diffusion-based Editing with 3 Lines of Code | ICLR 2024 | [Paper](https://arxiv.org/abs/2310.01506) \| [Code](https://github.com/cure-lab/PnPInversion) |
+| Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | CVPR 2023 (Poster) | [Paper](https://arxiv.org/abs/2211.12572) \| [Code](https://github.com/MichalGeyer/plug-and-play) |
+| Prompt-to-Prompt Image Editing with Cross Attention Control | ICLR 2023 | [Paper](https://arxiv.org/abs/2208.01626) \| [Code](https://github.com/google/prompt-to-prompt) |
+| RePaint: Inpainting using Denoising Diffusion Probabilistic Models | CVPR 2022 | [Paper](https://arxiv.org/abs/2201.09865) \| [Code](https://github.com/andreas128/RePaint) |
+| Zero-shot Image-to-Image Translation (pix2pix-zero) | SIGGRAPH 2023 | [Paper](https://arxiv.org/abs/2302.03027) \| [Code](https://github.com/pix2pixzero/pix2pix-zero) |
+
+> ✏️ Editing is arguably **where controllability matters most** — precision, structure preservation, and user intent must all align.
 
 ---
 
 ## 📬 Contribute
 
-Have suggestions or papers to add? Feel free to submit a pull request or open an issue!
+💡 Know a paper we missed? Working on a new controllable generation method?  
+Feel free to **submit a pull request** or **open an issue** — contributions are welcome!
 
