@@ -1,6 +1,6 @@
 # Awesome Controllable Generative Models
 
-A curated list of recent papers (2023–2025) on **controllable generative models**, especially in **diffusion models** and **transformer-based generation**. Focus areas include control mechanisms, attention interpretation, frequency domain guidance, and domain-class alignment.
+A curated list of recent papers (2023–2025) on **controllable generative models**, especially in **Unet-based diffusion models** and **transformer-based diffuson models**. Focus areas include control mechanisms, attention interpretation, frequency domain guidance, and domain-class alignment.
 
 ---
 
