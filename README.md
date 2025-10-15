@@ -24,9 +24,9 @@ This list emphasizes core advances in:
 | Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling | ICLR 2025 | [Paper](https://arxiv.org/abs/2410.11236) \| [Code](https://github.com/grenoble-zhang/Ctrl-U) |
 | FlexControl: Computation-Aware Conditional Control with Differentiable Router | ICML 2025 (Poster) | [Paper](https://arxiv.org/abs/2502.10451) \| [Code](https://github.com/Daryu‑Fan/FlexControl) |
 | Rectified Diffusion Guidance for Conditional Generation | CVPR 2025 | [Paper](https://arxiv.org/abs/2410.18737) \| [Code](#) |
+| OminiControl: Minimal and Universal Control for Diffusion Transformer | ICCV 2025 (Highlight) | [Paper](https://arxiv.org/abs/2411.15098) \| [Code](https://github.com/Yuanshi9815/OminiControl) |
 | Controllable Generation with Text-to-Image Diffusion Models: A Survey | T-PAMI 2024 | [Paper](https://arxiv.org/abs/2403.04279) \| [Code](#) |
 | Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models | arXiv 2024 | [Paper](https://arxiv.org/abs/2411.07126) \| [Code](https://github.com/NVIDIA/Edify-Image) |
-| OminiControl: Minimal and Universal Control for Diffusion Transformer | arXiv 2024 | [Paper](https://arxiv.org/abs/2411.15098) \| [Code](https://github.com/Yuanshi9815/OminiControl) |
 | SmartControl: Enhancing ControlNet for Handling Rough Visual Conditions | ECCV 2024 (Poster) | [Paper](https://arxiv.org/abs/2404.06451) \| [Code](https://github.com/liuxiaoyu1104/SmartControl) |
 | Ctrl‑X: Controlling Structure and Appearance Without Guidance | NeurIPS 2024 | [Paper](https://arxiv.org/abs/2406.07540) \| [Code](https://github.com/genforce/ctrl-x) |
 | Layout-to-Image Generation with Localized Descriptions using ControlNet with Cross-Attention Guidance | WACV 2024 | [Paper](https://arxiv.org/abs/2402.13404) \| [Code](#) |
@@ -92,8 +92,8 @@ You may also consider including some notable **image-to-image (I2I） editing me
 
 | Paper | Venue | Links |
 |-------|-------|-------|
+| Diffusion Model-Based Image Editing: A Survey | TPAMI 2025 | [Paper](https://arxiv.org/abs/2402.17525) \| [Code](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) |
 | AnyEdit: Mastering Unified High-Quality Image Editing for Any Idea | CVPR 2025 (Oral) | [Paper](https://arxiv.org/abs/2411.15738) \| [Code](https://github.com/DCDmllm/AnyEdit) |
-| Diffusion Model-Based Image Editing: A Survey | arXiv 2024 | [Paper](https://arxiv.org/abs/2402.17525) \| [Code](https://github.com/SiatMMLab/Awesome-Diffusion-Model-Based-Image-Editing-Methods) |
 | Direct Inversion: Boosting Diffusion-based Editing with 3 Lines of Code | ICLR 2024 | [Paper](https://arxiv.org/abs/2310.01506) \| [Code](https://github.com/cure-lab/PnPInversion) |
 | Prompt-to-Prompt Image Editing with Cross Attention Control | ICLR 2023 | [Paper](https://arxiv.org/abs/2208.01626) \| [Code](https://github.com/google/prompt-to-prompt) |
 | Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | CVPR 2023 (Poster) | [Paper](https://arxiv.org/abs/2211.12572) \| [Code](https://github.com/MichalGeyer/plug-and-play) |
